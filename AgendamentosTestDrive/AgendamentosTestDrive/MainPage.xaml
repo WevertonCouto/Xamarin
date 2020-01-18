@@ -17,7 +17,8 @@
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>-->
-    <ListView x:Name="listViewVeiculos" ItemsSource="{Binding listVeiculos}">
+    <ListView x:Name="listViewVeiculos" ItemsSource="{Binding listVeiculos}" Margin="25"
+              ItemTapped="ListViewVeiculos_ItemTapped">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
@@ -25,7 +26,7 @@
                         <StackLayout Orientation="Horizontal">
                             <Label Text="{Binding Nome}" FontSize="20" VerticalTextAlignment="Center"></Label>
                             <Label Text=" - " VerticalTextAlignment="Center"></Label>
-                            <Label Text="{Binding Preco}" FontAttributes="Bold" VerticalTextAlignment="Center" ></Label>
+                            <Label Text="{Binding PrecoFormatado}" FontAttributes="Bold" VerticalTextAlignment="Center" ></Label>
                         </StackLayout>
                     </ViewCell.View>
                 </ViewCell>

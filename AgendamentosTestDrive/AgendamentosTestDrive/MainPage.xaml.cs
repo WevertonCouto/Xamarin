@@ -28,6 +28,12 @@ namespace AgendamentosTestDrive
             //listViewVeiculos.ItemsSource = this.listVeiculos;
             this.BindingContext = this;
         }
+
+        private void ListViewVeiculos_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var veiculo = (Veiculo)e.Item;
+            DisplayAlert("Test Drive", string.Format("Você tocou no modelo '{0}', que custa '{1}'", veiculo.Nome, veiculo.PrecoFormatado), "Ok", "Fechar");
+        }
     }
 
 
@@ -35,5 +41,12 @@ namespace AgendamentosTestDrive
     {
         public string Nome { get; set; }
         public decimal Preco { get; set; }
+        public string PrecoFormatado
+        {
+            get
+            {
+                return String.Format("R$ {0}", this.Preco);
+            }
+        }
     }
 }
