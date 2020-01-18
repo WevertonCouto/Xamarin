@@ -1,0 +1,14 @@
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\bin\Debug\netstandard2.0\AgendamentosTestDrive.deps.json
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\bin\Debug\netstandard2.0\AgendamentosTestDrive.dll
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\bin\Debug\netstandard2.0\ref\AgendamentosTestDrive.dll
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\bin\Debug\netstandard2.0\AgendamentosTestDrive.pdb
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\AgendamentosTestDrive.csprojAssemblyReference.cache
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\AgendamentosTestDrive.csproj.CoreCompileInputs.cache
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\AgendamentosTestDrive.AssemblyInfoInputs.cache
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\AgendamentosTestDrive.AssemblyInfo.cs
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\AgendamentosTestDrive.dll
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\ref\AgendamentosTestDrive.dll
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\AgendamentosTestDrive.pdb
