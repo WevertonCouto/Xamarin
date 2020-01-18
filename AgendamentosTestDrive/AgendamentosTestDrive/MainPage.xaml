@@ -7,10 +7,9 @@
              x:Class="AgendamentosTestDrive.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label Text="Azera V6" />
+        <Label Text="Fiesta 2.0" />
+        <Label Text="HB20 S" />
     </StackLayout>
 
 </ContentPage>
