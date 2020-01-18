@@ -18,6 +18,7 @@ namespace AgendamentosTestDrive.Views
             InitializeComponent();
             this.Title = veiculo.Nome;
             this.veiculo = veiculo;
+            this.BindingContext = this;
         }
 
         private void BtnProximo_Clicked(object sender, EventArgs e)
