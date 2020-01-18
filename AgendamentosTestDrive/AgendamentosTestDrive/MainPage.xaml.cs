@@ -13,9 +13,27 @@ namespace AgendamentosTestDrive
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        public List<Veiculo> listVeiculos { get; set; }
         public MainPage()
         {
             InitializeComponent();
+
+            this.listVeiculos = new List<Veiculo>
+            {
+                new Veiculo {Nome = "Azera V6", Preco = 60000},
+                new Veiculo {Nome = "Fiesta 2.0", Preco = 5000},
+                new Veiculo {Nome = "HB20 S", Preco = 40},
+            };
+
+            //listViewVeiculos.ItemsSource = this.listVeiculos;
+            this.BindingContext = this;
         }
+    }
+
+
+    public class Veiculo
+    {
+        public string Nome { get; set; }
+        public decimal Preco { get; set; }
     }
 }
