@@ -518,3 +518,4 @@ C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive.Andro
 C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive.Android\obj\Debug\90\android\assets\System.Runtime.dll

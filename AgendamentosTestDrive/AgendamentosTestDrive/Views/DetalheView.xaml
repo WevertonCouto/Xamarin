@@ -5,11 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="AgendamentosTestDrive.Views.DetalheView">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <Button 
+        x:Name="btnProximo" 
+        Text="Próximo" 
+        Clicked="BtnProximo_Clicked"
+        VerticalOptions="End"
+        ></Button>
 </ContentPage>

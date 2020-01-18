@@ -13,3 +13,4 @@ C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\D
 C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\AgendamentosTestDrive.pdb
 C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\Views\ListagemView.xaml.g.cs
 C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\Views\DetalheView.xaml.g.cs
+C:\Users\wever\Desktop\Xamarin\AgendamentosTestDrive\AgendamentosTestDrive\obj\Debug\netstandard2.0\Views\AgendamentoView.xaml.g.cs

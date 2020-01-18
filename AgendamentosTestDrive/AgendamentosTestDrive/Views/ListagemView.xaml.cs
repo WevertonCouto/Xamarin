@@ -28,7 +28,7 @@ namespace AgendamentosTestDrive
         private void ListViewVeiculos_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var veiculo = (Veiculo)e.Item;
-            Navigation.PushAsync(new DetalheView());
+            Navigation.PushAsync(new DetalheView(veiculo));
         }
     }
 
