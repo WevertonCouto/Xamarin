@@ -22,7 +22,7 @@ namespace AgendamentosTestDrive
             {
                 new Veiculo {Nome = "Azera V6", Preco = 60000},
                 new Veiculo {Nome = "Fiesta 2.0", Preco = 5000},
-                new Veiculo {Nome = "HB20 S", Preco = 40},
+                new Veiculo {Nome = "HB20 S", Preco = 40000},
             };
 
             //listViewVeiculos.ItemsSource = this.listVeiculos;
