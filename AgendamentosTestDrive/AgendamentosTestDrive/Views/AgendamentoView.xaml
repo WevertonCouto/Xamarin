@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              Title="{Binding Veiculo.Nome}"
              x:Class="AgendamentosTestDrive.Views.AgendamentoView">
-    <TableView Margin="25">
+    <StackLayout>
+        <TableView Margin="25">
         <TableRoot>
             <TableSection Title="Seus dados">
                 <EntryCell Label="Nome:" Text="{Binding Nome}"></EntryCell>
@@ -29,4 +30,6 @@
             </TableSection>
         </TableRoot>
     </TableView>
+    <Button Text="Agendar" Clicked="Button_Clicked"></Button>
+    </StackLayout>
 </ContentPage>
