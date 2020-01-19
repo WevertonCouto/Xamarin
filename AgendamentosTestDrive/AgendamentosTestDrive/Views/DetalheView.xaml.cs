@@ -30,7 +30,7 @@ namespace AgendamentosTestDrive.Views
             }
         }
 
-        public string MP3Player
+        public string TextoMP3Player
         {
             get
             {
@@ -38,6 +38,55 @@ namespace AgendamentosTestDrive.Views
             }
         }
 
+        bool temFreioAbs { get; set; }
+        public bool TemFreioABS
+        {
+            get {
+                return temFreioAbs;
+            }
+            set
+            {
+                temFreioAbs = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(ValorTotal));
+                DisplayAlert("Freio ABS", (temFreioAbs ? "Ligado!" : "Desligado!"), "Ok");
+            }
+        }
+
+        bool temArCondicionado { get; set; }
+        public bool TemArCondicionado
+        {
+            get
+            {
+                return temArCondicionado;
+            }
+            set
+            {
+                temArCondicionado = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(ValorTotal));
+                DisplayAlert("Ar Condicionado", (temArCondicionado ? "Ligado!" : "Desligado!"), "Ok");
+            }
+        }
+
+        bool temMP3Player { get; set; }
+        public bool TemMP3Player
+        {
+            get
+            {
+                return temMP3Player;
+            }
+            set
+            {
+                temMP3Player = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(ValorTotal));
+                DisplayAlert("MP3 Player", (temMP3Player ? "Ligado!" : "Desligado!"), "Ok");
+            }
+        }
+
+
+        public string ValorTotal { get { return string.Format("Valor total: R$ {0}", veiculo.Preco + (temFreioAbs ? FREIO_ABS : 0) + (temArCondicionado ? AR_CONDICIONADO : 0) + (temMP3Player ? MP3_PLAYER : 0));  } }
         public DetalheView(Veiculo veiculo)
         {
             InitializeComponent();
