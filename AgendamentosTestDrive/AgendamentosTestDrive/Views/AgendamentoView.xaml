@@ -9,11 +9,24 @@
     <TableView Margin="25">
         <TableRoot>
             <TableSection Title="Seus dados">
-                <EntryCell Label="Nome:"></EntryCell>
-                <EntryCell Label="Telefone:" Keyboard="Telephone"></EntryCell>
-                <EntryCell Label="Email:" Keyboard="Email"></EntryCell>
+                <EntryCell Label="Nome:" Text="{Binding Nome}"></EntryCell>
+                <EntryCell Label="Telefone:" Keyboard="Telephone" Text="{Binding Telefone}"></EntryCell>
+                <EntryCell Label="Email:" Keyboard="Email" Text="{Binding Email}"></EntryCell>
             </TableSection>
-            <TableSection Title="Agendamento"></TableSection>
+            <TableSection Title="Agendamento">
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Data:" VerticalTextAlignment="Center"></Label>
+                        <DatePicker Format="dd/MM/yyyy"></DatePicker>
+                    </StackLayout>
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Horário:" />
+                        <TimePicker></TimePicker>
+                    </StackLayout>
+                </ViewCell>
+            </TableSection>
         </TableRoot>
     </TableView>
 </ContentPage>
