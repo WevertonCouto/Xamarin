@@ -37,7 +37,7 @@ namespace AgendamentosTestDrive.Views
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Agendamento", string.Format("Nome: {0}\nFone: {1}\nE-mail: {2}\nData Agendamento: {3}\nHora Agendamento: {4}", this.Nome, this.Telefone, this.Email, this.DataAgendamento.ToString('dd/MM/yyyy'), this.HoraAgendamento), "Ok");
+            DisplayAlert("Agendamento", string.Format("Nome: {0}\nFone: {1}\nE-mail: {2}\nData Agendamento: {3}\nHora Agendamento: {4}", this.Nome, this.Telefone, this.Email, this.DataAgendamento.ToString("dd/MM/yyyy"), this.HoraAgendamento), "Ok");
         }
     }
 }
