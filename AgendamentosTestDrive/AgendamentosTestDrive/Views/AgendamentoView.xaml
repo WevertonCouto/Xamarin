@@ -17,13 +17,13 @@
                 <ViewCell>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="Data:" VerticalTextAlignment="Center"></Label>
-                        <DatePicker Format="dd/MM/yyyy"></DatePicker>
+                        <DatePicker Format="dd/MM/yyyy" Date="{Binding DataAgendamento}"></DatePicker>
                     </StackLayout>
                 </ViewCell>
                 <ViewCell>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="Horário:" />
-                        <TimePicker></TimePicker>
+                        <TimePicker Time="{Binding HoraAgendamento}"></TimePicker>
                     </StackLayout>
                 </ViewCell>
             </TableSection>
